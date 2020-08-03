@@ -1,12 +1,12 @@
-package com.lordgasmic.==PACKAGE_NAME==;
+package com.lordgasmic.pumpingservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ==APP_NAME==Application {
+public class PumpingServiceApplication {
 
     public static void main(String... args) {
-        SpringApplication.run(==APP_NAME==Application.class, args);
+        SpringApplication.run(PumpingServiceApplication.class, args);
     }
 }
