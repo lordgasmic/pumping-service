@@ -1,7 +1,8 @@
 package com.lordgasmic.pumpingservice.repository;
 
 import com.lordgasmic.pumpingservice.entity.ExpressionEntity;
-import org.springframework.data.repository.Repository;
+import com.lordgasmic.pumpingservice.entity.ExpressionEntityPk;
+import org.springframework.data.repository.CrudRepository;
 
-public interface ExpressionRepository extends Repository<ExpressionEntity, Long> {
+public interface ExpressionRepository extends CrudRepository<ExpressionEntity, ExpressionEntityPk> {
 }

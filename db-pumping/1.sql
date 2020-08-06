@@ -1,10 +1,10 @@
 create table expression(
     date nvarchar(10),
-    time nvarchar(10),
-    right integer,
-    left integer,
-    pumping_type integer,
-    storage_location integer,
-    duration integer,
-    primary key (date, time)
+    time_expressed nvarchar(10),
+    boob_rt int,
+    boob_lf int,
+    pumping_type int,
+    storage_location int,
+    duration int,
+    primary key (date, time_expressed)
 );
