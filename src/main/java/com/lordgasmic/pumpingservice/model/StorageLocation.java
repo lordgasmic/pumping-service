@@ -1,5 +1,5 @@
 package com.lordgasmic.pumpingservice.model;
 
 public enum StorageLocation {
-    Freezer, Fridge, Hospital
+    Freezer, Fridge, Hospital, PumpAndDump
 }
